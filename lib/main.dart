@@ -64,8 +64,8 @@ class MyHomePage extends StatelessWidget {
 
                       itemBuilder: (context, index){
                         return ListTile(
-                          title: Text("Task No $index", style: TextStyle(color: Colors.grey[900], fontWeight: FontWeight.bold),),
-                          subtitle: Text("This is the detail of task No $index", style: TextStyle(color: Colors.grey[700]),),
+                          title: Text("No $index", style: TextStyle(color: Colors.grey[900], fontWeight: FontWeight.bold),),
+                          subtitle: Text("Isi detail disini task No $index", style: TextStyle(color: Colors.grey[700]),),
                           trailing: Icon(Icons.check_circle, color: Colors.greenAccent,),
                           isThreeLine: true,
                         );
